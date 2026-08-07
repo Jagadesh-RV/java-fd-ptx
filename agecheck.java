@@ -4,7 +4,7 @@ public class agecheck {
         if (age<5){
             System.out.println("Child");
         }else if (age>=5 && age<=10){
-            System.out.println("Teenager");
+            System.out.println("Kid");
         }else if (age>=11 && age<=17){
             System.out.println("Young Adult");
         }else if (age>=18 && age<=60){
