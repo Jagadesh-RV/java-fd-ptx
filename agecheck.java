@@ -11,5 +11,6 @@ public class agecheck {
             System.out.println("Adult");
         }else{
             System.out.println("Senior Citizen");
+        }
     }
 }
