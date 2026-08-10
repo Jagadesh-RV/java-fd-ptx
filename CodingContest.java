@@ -6,16 +6,16 @@ public class CodingContest {
         System.out.println("Enter the roll number: ");
         int n = sc.nextInt();
         int count = 0;
-            for (int i = 2; i <= 5; i++) {
+            for (int i = 2; i < n; i++) {
                 if (n % i == 0) {
                     count++;
                 }
             }
         
-        if (count == 1 ) {
-            System.out.println("Eligible");
+        if (count > 0) {
+            System.out.println(" Not Eligible");
         } else {
-            System.out.println("Not Eligible");
+            System.out.println(" Eligible");
         }
 
         sc.close();
