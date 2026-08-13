@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ArrayIO {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the array size :");
+        int n = sc.nextInt();
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            System.out.println("Enter the number at position " + (i+1)+ " in the array :");
+            int num = sc.nextInt();
+            arr[i] = num;
+
+        }
+        System.out.println("The array elements are :");
+         for (int i = 0; i < n; i++) {
+            System.out.println(arr[i]);
+        }
+    }
+}
