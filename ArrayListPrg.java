@@ -12,6 +12,8 @@ public class ArrayListPrg{
         //addLast() -> to ensure adding element at end of the List 
         list.addLast("Good");
         list.addLast("Boy");
+        //set() -> to replace an element in a specific index position 
+        list.set(4,"Bad");
         //to print the ArrayList
         System.out.println("List : " +list);
     }
