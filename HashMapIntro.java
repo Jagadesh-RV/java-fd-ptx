@@ -29,6 +29,7 @@ public class HashMapIntro {
             String value =dataset.getValue();
             System.out.println(key + " : "+ value );
         }
-
+        // print only key from HashMap
+        System.out.println("Keys On Map :"+map.keySet());
     }
 }
