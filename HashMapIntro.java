@@ -15,5 +15,10 @@ public class HashMapIntro {
         System.out.println("district contains?" + map.containsKey("district"));
         //containsvalue()-> to check value is exist on map
         System.out.println("Lohith contains?"+map.containsValue("Lohith"));
+
+        //Find size of the map
+        System.out.println("Size :"+map.size());
+
+        
     }
 }
