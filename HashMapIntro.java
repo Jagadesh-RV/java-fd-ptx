@@ -20,7 +20,15 @@ public class HashMapIntro {
         System.out.println("Size :"+map.size());
         // Remove any element using key 
         map.remove("area");
-        
+         
+        //Iterate over Map
+        for(Map.Entry<String,String> dataset: map.entrySet()){
+            //retrive key
+            String key= dataset.getKey();
+            //retrive value
+            String value =dataset.getValue();
+            System.out.println(key + " : "+ value );
+        }
 
     }
 }
