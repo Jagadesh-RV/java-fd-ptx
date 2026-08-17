@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+import  java.util.*;
 public class ArrayListPrg{
     public static void main(String[] args){
         //Declare ArrayLIst-p String
@@ -17,7 +17,14 @@ public class ArrayListPrg{
             ,"Bad");
         //add (idx,element)  -> insert an element a specific index
         list.add(2,"also");
+        //remove() -> USing object
+        list.remove("boy");
+        //remove() ->using index
+        list.remove(4);
+        //Sort the List 
+        Collections.sort(list);
         //to print the ArrayList
+        
         System.out.println("List : " +list);
     }
 
