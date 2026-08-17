@@ -13,7 +13,10 @@ public class ArrayListPrg{
         list.addLast("Good");
         list.addLast("Boy");
         //set() -> to replace an element in a specific index position 
-        list.set(4,"Bad");
+        list.set(3
+            ,"Bad");
+        //add (idx,element)  -> insert an element a specific index
+        list.add(2,"also");
         //to print the ArrayList
         System.out.println("List : " +list);
     }
