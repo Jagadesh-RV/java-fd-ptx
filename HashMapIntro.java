@@ -18,7 +18,9 @@ public class HashMapIntro {
 
         //Find size of the map
         System.out.println("Size :"+map.size());
-
+        // Remove any element using key 
+        map.remove("area");
         
+
     }
 }
