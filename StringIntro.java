@@ -19,6 +19,8 @@ public class StringIntro {
         System.out.println("Without case sensitive : "+ isSameCase);
         //to check the substring contains in the string 
         System.out.println("<hul> contains :"+s.contains("hul"));
+        //to replace substring on char
+        System.out.println("replace ish :"+ name.replace("ish " , "sha"));
 
         }
 }
