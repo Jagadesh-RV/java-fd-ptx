@@ -7,6 +7,7 @@ public class StringIntro {
         System.out.println("The length of the string is :"+len);
         char ch = s.charAt(3);
         System.out.println("The character positioned  at the position is :"+ch);
-
+        String substr = s.substring(2,4);
+        System.out.println("The substring is :"+ substr);
         }
 }
