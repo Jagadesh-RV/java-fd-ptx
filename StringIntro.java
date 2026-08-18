@@ -10,5 +10,6 @@ public class StringIntro {
         String substr = s.substring(2,4);
         System.out.println("The substring is :"+ substr);
         System.out.println("Uppercase :"+ s.toUpperCase());
+        System.out.println("Lowercase : "+ s.toLowerCase());
         }
 }
