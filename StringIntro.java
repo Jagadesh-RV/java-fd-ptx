@@ -3,5 +3,7 @@ public class StringIntro {
         String s = "Rahul";
         s = s.concat("o");
         System.out.println(s);
+        int len=s.length();
+        System.out.println("The length of the string is :"+len);
     }
 }
