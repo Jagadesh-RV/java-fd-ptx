@@ -14,6 +14,9 @@ public class StringIntro {
         
         boolean isSame = s.equals("Rahulo");
         System.out.println("Same compare "+ isSame );
+        String name = "Harish ";
+        boolean isSameCase = name.equalsIgnoreCase("harish");
+        System.out.println("Without case sensitive : "+ isSameCase);
 
         }
 }
