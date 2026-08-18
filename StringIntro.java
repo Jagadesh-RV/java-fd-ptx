@@ -17,6 +17,8 @@ public class StringIntro {
         String name = "Harish ";
         boolean isSameCase = name.equalsIgnoreCase("harish");
         System.out.println("Without case sensitive : "+ isSameCase);
+        //to check the substring contains in the string 
+        System.out.println("<hul> contains :"+s.contains("hul"));
 
         }
 }
