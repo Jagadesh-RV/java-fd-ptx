@@ -11,5 +11,9 @@ public class StringIntro {
         System.out.println("The substring is :"+ substr);
         System.out.println("Uppercase :"+ s.toUpperCase());
         System.out.println("Lowercase : "+ s.toLowerCase());
+        
+        boolean isSame = s.equals("Rahulo");
+        System.out.println("Same compare "+ isSame );
+
         }
 }
