@@ -4,11 +4,11 @@ public class RemoveSpaceString {
         int len =str.length();
         String newstr="";
         for (int i =0;i<len;i++){
-            char ch=str.charAt(i)
-            if(ch !=" "){
-                newstr= newstr.concat(ch);
+            char ch=str.charAt(i);
+            if(ch !=' '){
+                newstr= newstr+ch;
             }
         }
-        System.out.println("Result :"+ newstr)
+        System.out.println("Result :"+ newstr);
     }
 }
