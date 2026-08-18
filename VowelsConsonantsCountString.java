@@ -7,6 +7,9 @@ public class VowelsConsonantsCountString {
         int consonants =0;
         for (int i=0;i<len;i++) {
             char ch = str.charAt(i);
+            if (Character.isUpperCase(ch)) {
+                ch=Character.toLowerCase(ch);
+            }
             if (ch == 'a' ||ch  == 'e'|| ch =='i' ||ch  == 'o'|| ch == 'u'){
                 vowels=vowels+1;
             }else{
