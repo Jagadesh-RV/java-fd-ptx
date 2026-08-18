@@ -9,5 +9,6 @@ public class StringIntro {
         System.out.println("The character positioned  at the position is :"+ch);
         String substr = s.substring(2,4);
         System.out.println("The substring is :"+ substr);
+        System.out.println("Uppercase :"+ s.toUpperCase());
         }
 }
