@@ -7,7 +7,7 @@ public class HashMapIntro {
         map.put("name", "Lohith");
         map.put("house no", "23c");
         map.put("area", "Saravanampatti");
-        map.put("district", "Coimbatore");
+        map.put("di0strict", "Coimbatore");
         System.out.println("Original MAp:" + map);
         // get() -> Using key get the value
         System.out.println("Area :" + map.get("area"));
