@@ -5,5 +5,8 @@ public class StringIntro {
         System.out.println(s);
         int len=s.length();
         System.out.println("The length of the string is :"+len);
-    }
+        char ch = s.charAt(3);
+        System.out.println("The character positioned  at the position is :"+ch);
+
+        }
 }
