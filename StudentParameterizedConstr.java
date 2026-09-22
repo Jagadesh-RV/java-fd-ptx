@@ -25,7 +25,7 @@ public class StudentParameterizedConstr {
     public static void main(String[] args) {
         StudentParam s = new StudentParam();
         StudentParam s2 = new StudentParam("Rahul");
-        StudentParam s3 = new StudentParam("John", "FDPTX", 20);
+        StudentParam s3 = new StudentParam(s2.name, "CSE", 25);
 
         System.out.println("s.name: " + s.name);
         System.out.println("s2.name: " + s2.name);
